@@ -30,8 +30,6 @@ export const config  = {
         // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
         staticBaseUrl: [
             'https://xn--wgv9cz54cexz.com/api/v1',
-            'https://skhsn6q4pnv95.ezdemo.xyz/api/v1',
-            'https://gy1v06omopzc8.ezdemo.xyz/api/v1'
         ],
       
         // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -66,8 +64,8 @@ export const config  = {
 
     // ====================  网站基础配置  ====================
     SITE_CONFIG: {
-        siteName: 'EZ THEME',
-        siteDescription: 'EZ UI',
+        siteName: '跨越长城',
+        siteDescription: '跨越长城是一个综合性的网络代理隧道服务商，向客户提供高速稳定的服务',
         // copyright会自动使用当前年份
         copyright: `© ${new Date().getFullYear()} EZ THEME. All Rights Reserved.`,
 
@@ -205,7 +203,7 @@ export const config  = {
         // 商店弹窗配置
         popup: {
             // 是否启用弹窗
-            enabled: true,
+            enabled: false,
 
             // 弹窗标题
             title: "用户须知",
@@ -335,7 +333,7 @@ export const config  = {
     // 用户中心页面配置
     PROFILE_CONFIG: {
         // 是否显示礼品卡兑换栏目 (true=显示, false=隐藏)
-        showGiftCardRedeem: false, // 只有Xiao-V2board支持礼品卡兑换
+        showGiftCardRedeem: true, // 只有Xiao-V2board支持礼品卡兑换
 
         // 是否显示最近登录设备栏目 (true=显示, false=隐藏)
         showRecentDevices: true
@@ -351,7 +349,7 @@ export const config  = {
 
     // 授权的前端域名列表 (新增)
     AUTHORIZED_DOMAINS: [
-        "test.eztheme.test",
+        "跨越长城.com",
         "test1.eztheme.test",
     ],
 
@@ -535,7 +533,7 @@ export const config  = {
     // 客服系统配置
     CUSTOMER_SERVICE_CONFIG: {
         // 是否启用客服系统
-        enabled: false,
+        enabled: true,
 
         // 客服系统类型: 'crisp' 或 'other'
         // 注意：当客服类型为crisp时，系统会自动向Crisp传递用户数据
@@ -543,7 +541,7 @@ export const config  = {
         type: 'crisp',
 
         // 客服系统JS代码，请将您的客服系统提供的嵌入代码粘贴在这里
-        customHtml: '',
+        customHtml: '1d4639a7-3e57-4706-a7f7-5968179bcdde',
 
         // 客服系统嵌入模式: 'popup'=弹出式页面, 'embed'=嵌入到每个页面
         // 'popup'模式: 点击客服图标会跳转到单独的客服页面
@@ -611,7 +609,7 @@ export const config  = {
                 title: 'Telegram',
                 description: '加入我们的Telegram频道',
                 svgIcon: '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" /></svg>',
-                url: 'https://t.me/your_group',
+                url: 'https://t.me/Heycloud_official666',
                 openInNewTab: true
             }
             // 可以继续添加更多卡片...
