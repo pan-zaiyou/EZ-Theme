@@ -541,7 +541,7 @@ export const config  = {
         type: 'crisp',
 
         // 客服系统JS代码，请将您的客服系统提供的嵌入代码粘贴在这里
-        customHtml: '1d4639a7-3e57-4706-a7f7-5968179bcdde',
+        customHtml: '<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="0d31a6be-2276-432f-bd47-ac8d962e84ae";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>',
 
         // 客服系统嵌入模式: 'popup'=弹出式页面, 'embed'=嵌入到每个页面
         // 'popup'模式: 点击客服图标会跳转到单独的客服页面
